@@ -58,6 +58,46 @@
 		</div>
 	</header>
 
+	<div class="feedback-form" id="feedback-modal">
+		<div class="feedback-form-container">
+			<form class="feedback-form-body modal-body">
+				<span class="close-button"></span>
+				<div class="h3">Оформить предзаказ</div>
+
+				<div class="form-group">
+					<input type="text" class="form-control" placeholder="Имя">
+				</div>
+
+				<div class="form-group">
+					<input type="text" class="form-control phone-mask" placeholder="Телефон">
+				</div>
+
+				<button type="submit" class="btn btn-lg btn-shadow">Отправить</button>
+
+				<span class="under-text">
+					Нажимая на кнопку «Отправить», вы даете согласие на обработку своих персональных данных
+				</span>
+
+			</form>
+		</div>
+	</div>
+
+	<div class="feedback-form" id="success-modal">
+		<div class="feedback-form-container">
+			<form class="feedback-form-body modal-body">
+				<span class="close-button close"></span>
+				<div class="h3">Ваш предзаказ успешно прошел!</div>
+
+				<span class="under-text">
+					В течение 15 минут с Вами свяжется наш менеджер и уточнит все детали заказа
+				</span>
+
+				<button type="button" class="btn btn-lg btn-shadow close">Продолжить</button>
+
+			</form>
+		</div>
+	</div>
+
 	<section class="s-main-window">
 		<div class="container">
 			
@@ -91,7 +131,7 @@
 					<p>Мы сотрудничаем с кафе и ресторанами, крупными магазинами и дистрибьютерами</p>
 				</div>
 				<div class="purchase-title-right">
-					<a href="#" class="btn">Связаться с менеджером</a>
+					<a href="#feedback-modal" class="btn open-popup">Связаться с менеджером</a>
 				</div>
 			</div>
 
